@@ -1,0 +1,199 @@
+body{
+
+  font-family:"Montserrat";
+
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-bold";
+}
+
+
+h3{
+
+  font-weight: bold;
+}
+p{
+  color:#8f8f8f;
+}
+/* container */
+.fluid-container{
+  padding:  7% 15%;
+}
+/* heading */
+.big-heading{
+  font-family: "Montserrat-balck";
+  font-size:3.5rem;
+  line-height:1.5;
+  font-weight: bold;
+}
+.heading-section{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* navigation-bar */
+.navbar{
+  padding:0 0 4.5rem;
+}
+.nav-item{
+  padding:0px 18px;
+}
+.nav-link{
+  font-size: 1.5rem;
+  font-family: "Montserrat-light";
+}
+.navbar-brand{
+  color: white;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+/* for rotating image */
+.rotate{
+  transform: rotate(0deg);
+  width: 80%;
+  height: 80%;
+}
+/* title-section */
+#title{
+  background-color: #6E85B7;
+  color: white;
+  text-align: left;
+  margin: 0px;
+}
+
+.title .fluid-container{
+  padding:3% 15% 7%;
+}
+.title
+
+.title-image{
+  width:60px;
+  height: 40px;
+  position: absolute;
+  right: 30%;
+
+}
+/* features section */
+#features{
+
+  background-color: #fff;
+  position:relative;
+  z-index: 1;
+}
+.features-title{
+  font-weight: bold;
+}
+.features-box{
+
+  padding: 5%;
+}
+.features-icon{
+  color: #6E85B7;
+  padding: 1rem;
+}
+.features-icon:hover{
+  color: #6E85B7;
+}
+/* testimonial-section */
+
+@media (max-width:1028px) {
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+  .title{
+    text-align: center;
+  }
+  .features{
+    text-align: center;
+  }
+
+}
+/* call to acton */
+#cta{
+  background-color: #6E85B7;
+  color: #fff;
+
+
+
+
+}
+
+/* footer section */
+#footer{
+
+
+}
+.copyright{
+  text-align: center;
+}
+.footer-icon{
+  position: center;
+  margin:1.5rem;
+}
+/* css for aboutus page */
+.about .contactp{
+  text-align: center;
+  margin-right: 50rem;
+  width: 100%;
+  margin: 3rem 6rem;
+}
+.about{
+  margin-top: 4rem;
+}
+.upper{
+  margin: 0px;
+}
+.aboutp .contactp{
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+}
+.aboutp{
+  width: 50%;
+  margin-left: 25%;
+}
+/* css for contact page */
+.contact{
+  margin: 3rem;
+}
+.form{
+  width: 50%;
+  margin-left: 25%;
+}
+.footerc{
+  margin: 6rem 0rem 0rem 0rem;
+  padding-bottom: 3rem;
+}
+/* css for course page */
+.pngimg{
+  width:25%;
+  border-radius: 5rem;
+
+  margin-left: 30px;
+  background-color: white;
+}
+.skill-row{
+
+  margin:100px auto 100px auto;
+
+  width: 60%;
+  text-align: left;
+  line-height: 2;
+
+}
+.headingcou{
+  margin-top: 3rem;
+}
+.webd .cloud .datasci{
+  width:25%;
+  float: left;
+  margin-right: 30px;
+  float: left;
+}
+.android .machine{
+  float: right;
+
+}
